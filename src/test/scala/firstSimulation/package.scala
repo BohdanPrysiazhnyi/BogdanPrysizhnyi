@@ -75,7 +75,6 @@ package object firstSimulationRequests {
       .check(status.is(200)))
 
 
-
     val clickOnNextButton = exec(http("Click on Start button")
       .post("/start")
       .headers(headersHomePage)
